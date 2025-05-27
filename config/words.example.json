@@ -1,0 +1,58 @@
+{
+    "patate": {
+        "mots": [
+            "chat",
+            "maison",
+            "soleil",
+            "lune",
+            "arbre",
+            "fleur",
+            "livre",
+            "table",
+            "porte",
+            "fenêtre"
+        ]
+    },
+    "patate_blanche": {
+        "mots": [
+            "ordinateur",
+            "téléphone",
+            "internet",
+            "musique",
+            "cinéma",
+            "restaurant",
+            "voyage",
+            "vacances",
+            "école",
+            "travail"
+        ]
+    },
+    "patate_douce": {
+        "mots": [
+            "développement",
+            "programmation",
+            "application",
+            "technologie",
+            "innovation",
+            "éducation",
+            "communication",
+            "transportation",
+            "gouvernement",
+            "environnement"
+        ]
+    },
+    "patate_rouge": {
+        "mots": [
+            "informatique",
+            "mathematique",
+            "physique",
+            "chimie",
+            "biologie",
+            "histoire",
+            "géographie",
+            "philosophie",
+            "psychologie",
+            "sociologie"
+        ]
+    }
+} 
