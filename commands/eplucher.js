@@ -20,7 +20,13 @@ module.exports = {
                 robux: 0,
                 eplucheur: 'niveau1',
                 patate_actuelle: 'patate',
-                patates_epluchees: 0
+                patates_epluchees: 0,
+                stats_patates: {
+                    patate: 0,
+                    patate_blanche: 0,
+                    patate_douce: 0,
+                    patate_rouge: 0
+                }
             };
             fs.writeFileSync(configPath, JSON.stringify(config, null, 4));
         }
@@ -106,6 +112,16 @@ module.exports = {
                 if (motsValides >= eplucheurInfo.mots_requis) {
                     // Mettre à jour les Robux de l'utilisateur
                     userData.robux += gainTotal;
+
+                    // S'assurer que stats_patates existe
+                    if (!userData.stats_patates) {
+                        userData.stats_patates = {
+                            patate: 0,
+                            patate_blanche: 0,
+                            patate_douce: 0,
+                            patate_rouge: 0
+                        };
+                    }
 
                     // Mettre à jour les statistiques
                     userData.stats_patates[userData.patate_actuelle]++;

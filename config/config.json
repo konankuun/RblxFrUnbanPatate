@@ -13,12 +13,24 @@
             }
         },
         "103370895074021376": {
-            "robux": 45,
-            "eplucheur": "niveau4",
+            "robux": 20,
+            "eplucheur": "niveau1",
             "patate_actuelle": "patate",
-            "patates_epluchees": 2,
+            "patates_epluchees": 1,
             "stats_patates": {
-                "patate": 2,
+                "patate": 1,
+                "patate_blanche": 0,
+                "patate_douce": 0,
+                "patate_rouge": 0
+            }
+        },
+        "553583796935720963": {
+            "robux": 0,
+            "eplucheur": "niveau1",
+            "patate_actuelle": "patate",
+            "patates_epluchees": 0,
+            "stats_patates": {
+                "patate": 0,
                 "patate_blanche": 0,
                 "patate_douce": 0,
                 "patate_rouge": 0
